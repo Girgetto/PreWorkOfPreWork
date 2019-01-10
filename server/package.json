@@ -6,6 +6,9 @@
     "start": "node ./bin/www",
     "dev": "DEBUG=server:* nodemon ./bin/www"
   },
+  "engines": {
+    "node": "10.11.0"
+  },
   "dependencies": {
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
